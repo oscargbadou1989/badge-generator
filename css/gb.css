@@ -1,0 +1,36 @@
+.canvas-container{
+  width: 100%!important;
+  height: 100%!important;
+}
+canvas{
+  width: 100%!important;
+  height: 100%!important;
+}
+
+@media only screen and (min-width: 992px){
+  .page .baniere_footer {
+    margin-top: 4rem!important;
+  }
+  #gb-griio{
+    padding-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .baniere_footer h1, .baniere_footer p{
+    text-align: center!important;
+  }
+  #gb-griio .column{
+    margin: 0px!important;
+    padding-top: 0px!important;
+  }
+  #charger-photo-div{
+    padding-bottom: 5px!important;
+  }
+  #valider-img-div{
+    padding-bottom: 20px!important;
+  }
+  .page .baniere_footer {
+    margin-top: 4rem!important;
+  }
+}

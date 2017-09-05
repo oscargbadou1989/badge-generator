@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Griio Badge</title>
+  <link rel="stylesheet" type="text/css" href="semantic/out/semantic.min.css">
+  <link type="text/css" rel="stylesheet" href="node_modules/lightgallery/dist/css/lightgallery.css" /> 
+  <script src="semantic/out/components/jquery.js"></script>
+  <script src="semantic/out/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/reset.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/site.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/grid.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/menu.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/header.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/form.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/dropdown.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/checkbox.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/icon.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/sidebar.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/modal.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/table.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/components/image.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/out/assets/css/cropit.css">
+  <script src="semantic/out/components/sidebar.min.js"></script>
+  <script src="semantic/out/components/modal.min.js"></script>
+   <script src="semantic/out/assets/js/cropit.js"></script>
+</head>
+
+<body class="page">
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+  <a class="active item" href="publier_salle_form.html">Créer une campagne</a>
+  <a class="item" href="#">Aide</a>
+  <a class="item" href="#">Inscription</a>
+  <a class="item" href="http://Connexion.griio.com/" target="_blank">Connexion</a>
+</div>
+<!-- Page Contents -->
+<div class="pusher">
+  <header class="page_header">
+    <div class="ui container grid">
+      <div class="four wide column">
+      <a href="index.html"><img class="logo" src="semantic/out/assets/img/logo-black.png"></a>
+      </div>
+      <div class="twelve wide column right aligned computer only tablet only">
+        <ul class="ui menu secondary ">
+          <li><a href="publier_salle_form.html" class="important black_grey">Créer une campagne</a></li>
+         
+        </ul>
+      </div>
+      <div class="twelve wide column right aligned mobile only ">
+          <a class="toc item black text">
+            Menu <i class="sidebar list layout icon"></i>
+          </a>
+      </div>
+    </div>
+  </header>
+  <div class="principal_a">
+    <div class="white ">
+      <div class="ui container">
+        <div class="ui grid stackable two column relaxe_box mobile reversed">
+           <div class="column left">
+            <div class="badge_custom">
+              <div id="image-cropper">
+              <div class="cropit-preview">
+                <img class="ui fluid image badge_prev" src="semantic/out/assets/img/my_badge.png">
+                <img class="ui fluid image hidden badge_next" src="semantic/out/assets/img/my_badged.png">
+              </div>
+              <div class="range_box">
+              <input type="range" class="cropit-image-zoom-input ui range" />
+              <div class="custom_btn_box">
+                  <img src="semantic/out/assets/img/minus.png" class="less custom_btn"/>
+                  <img  src="semantic/out/assets/img/plus.png" class="more custom_btn">
+              </div>
+              </div>
+              
+              <!-- The actual file input will be hidden -->
+              <input type="file" class="cropit-image-input hidden" />
+
+              <!-- And clicking on this button will open up select file dialog -->
+              
+                  <a class=" black text underlined">Changer la photo</a>
+                
+              
+            </div>
+            </div>
+          </div>
+          <div class="column right">
+           <div class="badge_custom">
+               <h1 class="light_text text black no_margin">Félicitation !<br/> Votre badge est prêt.</h1>
+            <a class="lg_round_btn black_grey" href="#">Télécharger de l'image</a>
+            <div class="social_share">
+              <div class="relative_elmt">
+                <span class="elmt">ou partagez sur les réseaux sociaux</span>
+              </div>
+              <div class="link">
+
+              <a href="www.facebook.com/griio" title="Facebook" target="_blank" class="facebook">
+                <i class="facebook f icon"></i>
+              </a>
+              <a href="www.twitter.com/griio_" title="Twitter" target="_blank" class="twitter">
+                <i class="twitter icon"></i>
+              </a>
+              <a href="www.instagram.com/griio_" title="Instagram" target="_blank" class="instagram">
+                <i class="instagram icon"></i>
+              </a> 
+              <a href="www.instagram.com/griio_" title="Pinterest" target="_blank" class="pinterest">
+                <i class="pinterest icon"></i>
+              </a>
+              <a href="www.instagram.com/griio_" title="Linkedin" target="_blank" class="linkedin">
+                <i class="linkedin icon"></i>
+              </a>
+              </div>
+            </div>
+           </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <footer>
+    <div class="ui container">
+      <div class="ui stackable grid ">
+        <div class="four wide column">
+          <img class="ui small image " src="semantic/out/assets/img/logo-white.png">
+        </div>
+        <div class="eight wide column centered">
+            <ul class="ui menu_secondaire">
+              <li><a href="#">Qui sommes-nous ? </a></li>
+              <li><a href="#">Nos partenaires</a></li>
+              <li><a href="#">Nous contacter </a></li>
+              <li><a href="#">Mentions légales</a></li>
+            </ul>
+            <center><p class="copyright text black">Copyright © Tous droits réservés Griio Salles 2016.</p></center>
+        </div>
+        <div class="four wide column social">
+            <a href="www.facebook.com/griio" title="Facebook" target="_blank"><i class="facebook f icon"></i></a>
+            <a href="www.twitter.com/griio_" title="Twitter" target="_blank"><i class="twitter icon"></i></a>
+            <a href="www.instagram.com/griio_" title="Instagram" target="_blank"><i class="instagram icon"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html> 
